@@ -20,6 +20,53 @@
             margin-bottom: 5px;
             transition: transform 0.3s ease-in-out;
         }
+        .hamburger-menu.open span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger-menu.open span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger-menu.open span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+        button {
+            background-color: #f59e0b; /* Amber-500 */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 1000px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #d97706; /* Amber-600 */
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-radius: 1px;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #8abbff; /* Gray-900 */
+        }
+        h2 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #ebc495; /* Gray-900 */
+        }
+        p {
+            font-size: 1.125rem;
+            color: #8fbeff; /* Gray-600 */
+        }
+        a {
+            color: #f59e0b; /* Amber-500 */
+            text-decoration: none;
+        }
+        a:hover {
+            color: #d97706; /* Amber-600 */
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -233,6 +280,9 @@
         </div>
         <div class="text-center text-sm text-gray-400 mt-8">
             &copy; 2024 Gloria Jean's. All rights reserved.
+
+        <div >
+            if any mistakes found please call "01830763462"
         </div>
     </footer>
 
